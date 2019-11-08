@@ -15,7 +15,7 @@ public:
     void afficher(std::ostream& ost) const;
     void saisir(std::istream& ist);
     static Point polaire(double r,double teta);
-    static Point cartesienne(double x,double y);
+
 
 private:
     double d_x,d_y;
