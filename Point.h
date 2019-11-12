@@ -14,7 +14,7 @@ public:
     void deplacerDe(double dx,double dy);
     void afficher(std::ostream& ost) const;
     void saisir(std::istream& ist);
-    static Point polaire(double r,double teta);
+
 
 
 private:
