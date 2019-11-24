@@ -29,11 +29,7 @@ double Point::distance(const Point& p)
     return sqrt(dx*dx+dy*dy);
 }
 
-void Point::deplacerEn(double x,double y)
-{
-    d_x=x;
-    d_y=y;
-}
+
 
 void Point::deplacerDe(double dx,double dy)
 {
